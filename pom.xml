@@ -6,7 +6,12 @@
     <groupId>com.lingxi</groupId>
     <artifactId>explore</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>zuul</module>
+        <module>httpdns</module>
+        <module>eureka</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>explore</name>
     <description>Demo project for Spring Boot</description>
@@ -40,12 +45,6 @@
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
             <version>3.8.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.lifesense.base</groupId>
-            <artifactId>health-commons</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>

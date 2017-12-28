@@ -1,7 +1,7 @@
-package com.lingxi.explore;
+package com.lingxi.explore.boot;
 
 import com.lifesense.health.base.kit.LoggerKit;
-import com.lingxi.explore.kit.OkHttpDns;
+import com.lingxi.explore.boot.kit.OkHttpDns;
 import okhttp3.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
