@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@Api(value = "路由规则")
+@Api(value = "路由规则", description = "提供添加路由规则，刷新路由规则等API")
 @RestController
 @RequestMapping("/rule")
 public class RuleApplication {
