@@ -10,6 +10,7 @@
         <module>zuul</module>
         <module>httpdns</module>
         <module>eureka</module>
+        <module>toutiao</module>
     </modules>
     <packaging>pom</packaging>
 

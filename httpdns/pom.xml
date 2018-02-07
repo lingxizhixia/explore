@@ -22,10 +22,5 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
             <version>1.5.8.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>com.lifesense.base</groupId>
-            <artifactId>health-commons</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 </project>

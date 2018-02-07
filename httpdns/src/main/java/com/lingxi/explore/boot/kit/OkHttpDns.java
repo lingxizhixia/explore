@@ -3,7 +3,7 @@ package com.lingxi.explore.boot.kit;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.lifesense.health.base.kit.LoggerKit;
+//import com.lifesense.health.base.kit.LoggerKit;
 import okhttp3.*;
 
 import java.io.DataInputStream;
@@ -68,7 +68,7 @@ public class OkHttpDns implements Dns {
                 }
 
                 String data = result.toString();
-                LoggerKit.build("resolve_dn_with_ali_httpdns", "", dn).put("OkHttpDnsResponse", data).info("利用阿里云HttpDNS服务解析域名[" + dn + "]");
+                //LoggerKit.build("resolve_dn_with_ali_httpdns", "", dn).put("OkHttpDnsResponse", data).info("利用阿里云HttpDNS服务解析域名[" + dn + "]");
 
 
                 JSONObject json = JSON.parseObject(data);
