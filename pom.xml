@@ -11,6 +11,7 @@
         <module>httpdns</module>
         <module>eureka</module>
         <module>toutiao</module>
+        <module>jib</module>
     </modules>
     <packaging>pom</packaging>
 
