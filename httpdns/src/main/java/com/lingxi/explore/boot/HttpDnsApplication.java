@@ -1,6 +1,7 @@
 package com.lingxi.explore.boot;
 
 //import com.lifesense.health.base.kit.LoggerKit;
+
 import com.lingxi.explore.boot.kit.OkHttpDns;
 import okhttp3.*;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,6 +29,7 @@ public class HttpDnsApplication {
             @Override
             public void onFailure(Call call, IOException e) {
                 //LoggerKit.build("health_check", "", url).error("请求异常[" + e.getMessage() + "]", e);
+                System.out.println("call [" + url + "] 出现异常，详情： " + e.getMessage());
                 latch.countDown();
             }
 
