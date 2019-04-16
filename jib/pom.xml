@@ -48,7 +48,7 @@
                 <version>${jib-maven-plugin.version}</version>
                 <configuration>
                     <from>
-                        <image>registry.cn-shenzhen.aliyuncs.com/lingxi-base/oracle_java8</image>
+                        <image>openjdk:alpine</image>
                     </from>
                     <to>
                         <image>registry.cn-shenzhen.aliyuncs.com/lingxi-base/sample:v1</image>
