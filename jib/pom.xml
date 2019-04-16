@@ -48,10 +48,10 @@
                 <version>${jib-maven-plugin.version}</version>
                 <configuration>
                     <from>
-                        <image>openjdk:alpine</image>
+                        <image>daocloud.io/library/java:openjdk-8u40-b22</image>
                     </from>
                     <to>
-                        <image>registry.cn-shenzhen.aliyuncs.com/lingxi-base/sample:v1</image>
+                        <image>daocloud.io/lingximengyi/jib-sample:0.1</image>
                     </to>
                     <container>
                         <jvmFlags>
