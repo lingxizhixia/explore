@@ -4,13 +4,13 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
+// import org.springframework.cloud.context.config.annotation.RefreshScope;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @Controller
 @RequestMapping("config")
-@RefreshScope
+// @RefreshScope
 public class ConfigController {
 
     @Value("${tokenTimeOut:5000}")

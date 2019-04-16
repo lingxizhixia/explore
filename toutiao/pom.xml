@@ -38,27 +38,41 @@
             <artifactId>nacos-spring-context</artifactId>
             <version>0.2.1-RC1</version>
         </dependency>-->
-<!--
+
 		<dependency>
 			<groupId>com.alibaba.boot</groupId>
 			<artifactId>nacos-config-spring-boot-starter</artifactId>
             <version>0.2.0</version>
 		</dependency>
-		-->
 
+        <dependency>
+            <groupId>com.rollbar</groupId>
+            <version>[1.0,)</version>
+            <artifactId>rollbar-java</artifactId>
+        </dependency>
+
+        <!--Spring Cloud ACM -->
         <!--
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-			<version>0.2.0.RELEASE</version>
-		</dependency>
-		-->
-
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-acm</artifactId>
             <version>1.0.7</version>
         </dependency>
+        -->
+<!--
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>0.2.1-RC1</version>
+        </dependency>
+        -->
+
+        <!--<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>0.2.0.RELEASE</version>
+        </dependency>-->
+
     </dependencies>
 
     <repositories>
