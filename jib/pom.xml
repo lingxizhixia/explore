@@ -48,7 +48,7 @@
                 <version>${jib-maven-plugin.version}</version>
                 <configuration>
                     <from>
-                        <image>daocloud.io/library/java:openjdk-8u40-b22</image>
+                        <image>daocloud.io/library/java:openjdk-8-jre-alpine</image>
                     </from>
                     <to>
                         <image>daocloud.io/lingximengyi/jib-sample:0.1</image>
